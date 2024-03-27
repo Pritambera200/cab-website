@@ -1,0 +1,191 @@
+/* respossive */
+
+@media(max-width:800px){
+    header{
+        padding: 50px 0;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    .mt-4, .my-4 {
+        margin-top: 5rem !important;
+    }
+}
+
+@media(max-width:600px){
+    /* header{
+        padding: 50px 0;
+    } */
+    /* ul{
+        margin-top: 20px;
+    } */
+    .mt-4, .my-4 {
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width: 400px){
+    .mt-4, .my-4 {
+        margin-top: 1rem !important;
+    }
+
+}
+@media (max-width: 320px){
+    header .header_info h3{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    header .header_info h1{
+        font-weight: 900;
+        font-size: 37px;
+    }
+    header .header_info p{
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+    }
+
+}
+@media (max-width: 240px){
+    header .header_info h3{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    header .header_info h1{
+        font-weight: 900;
+        font-size: 27px;
+    }
+    header .header_info p{
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.50px;
+        
+    }
+
+}
+
+@media(max-width:768px){
+    .cab{
+        height: 1100px;
+    }
+    .class-right{
+        margin: auto;
+    }
+    .pt-5, .py-5 {
+        padding-top: 0rem !important;
+    }
+    
+}
+@media(max-width:556px){
+    .cab{
+        height: 1050px;
+    }
+    .cab .cab-left h1{
+        font-size: 34px;
+    }
+    .cab .cab-left h4{
+        font-size: 22px;
+    }
+    
+}
+@media(max-width:320px){
+    .cab{
+        height: 1300px;
+    }
+    .cab .cab-left h1{
+        font-size: 28px;
+    }
+    .cab .cab-left h4{
+        font-size: 20px;
+    }
+    .class-right{
+        width: 280px;
+    }
+    .class-right h1{
+        font-size: 33px;
+    }
+    
+}
+
+/* start card part */
+@media(max-width:992px){
+    .car-star img{
+        margin-left: 215px;    
+    }
+}
+@media(max-width:768px){
+    .car-star img{
+        margin-left: 615px;
+        margin-top: -74px;
+        
+    }
+    /* .container, .container-md, .container-sm {
+        max-width: 720px;
+    } */
+    .card-info{
+        padding-top: 40px;
+    }
+}
+/* Contain Section */
+
+@media(max-width:992px){
+    .content-text p{
+        font-size: 15px;
+    }
+}
+@media(max-width:768px){
+    .content{
+        height: 940px;
+    }
+    .content .content-info{
+        margin-top: 50px;
+    }  
+}
+@media(max-width:320px){
+    .content{
+        height: 1240px;
+    }
+    .content .content-info{
+        margin-top: 50px;
+    }  
+}
+/* service section */
+@media(max-width:768px){
+    .service-left{
+        padding: 0;
+    }
+    .mt-5, .my-5 {
+        margin-top: 2rem !important;
+    }
+}
+
+/* Start biography */
+@media(max-width:768px){
+    .bio-box{
+        margin-top: 30px;
+    }
+    .biography{
+        height: 830px;
+    }
+}
+/* call-section */
+@media(max-width:768px){
+    .call-section{
+        height: 160px;
+    }
+    .call-section h2{
+        font-size: 26px;
+    }
+}
+/* contact */
+@media(max-width:768px){
+    .content p{
+        font-size: 25px;
+    }
+    .contact{
+        height: 800px;
+    }
+}

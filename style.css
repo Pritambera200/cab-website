@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+    
+}
+.bg-orange{
+    background-color: #FFC61A;
+}
+.text-orange{
+    color: #FFC61A;
+}
+.text-dark{
+    color: black !important;
+}
+.btn-dark{
+    background-color: black;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    border-color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+.btn-orange{
+    background-color: #FFC61A;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    border-color: #FFC61A;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+}
+.btn{
+    padding: 5px 18px;
+    font-size: 18px;
+
+}
+.btn-dark:hover{
+    background-color: black;
+    color: #FFC61A;
+    
+}
+.btn-orange:hover{
+    background-color: black;
+    border-color: black;
+    color: #FFC61A;
+    
+}
+
+/* header part */
+
+header{
+    background-image: url(img/header_img/Taxi-Cab-Service-Company-We.jpg);
+    background-repeat: no-repeat;
+    padding-top: 35px;
+    height: 739px;
+    color: white;
+    
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+    background-color: #FFC61A;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 3px 18px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 3px 18px;
+    text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: #FFC61A;
+    color: black;
+    
+}
+
+/*header details*/
+
+header .header_info h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header .header_info h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+header .header_info p{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+header .header_info img{
+    position: relative;
+    top: 80px;
+}
+
+/* Start Cab part */
+.cab{
+    height: 705px;
+}
+
+.cab-left{
+    padding: 35px;
+}
+
+.cab .cab-left p{
+    color: #101010;
+}
+.cab .cab-left h1{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cab .cab-left h4{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.class-right{
+    background-color: white;
+    width: 370px;
+}
+.cab .class-right h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 24px;
+}
+.cab .class-right h1 span{
+    color: #FFC61A;
+}
+.cab .class-right input[type="text"]{
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 3px solid #E4E4E4;
+    border-radius: 0;
+}
+.cab .class-right form select{
+    border: 0;
+    border-bottom: 3px solid #E4E4E4;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.class-right form input.form-control:focus{
+    border-color: #FFC61A;
+    box-shadow: none;
+}
+.class-right form select.form-control:focus{
+    border-color: #FFC61A;
+    box-shadow: none;
+}
+
+/* start crad */
+.card{
+    border-radius: 0;
+    margin-top: 50px;
+}
+.card-info h3{
+    color: #FFC61A;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+.card-info h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card-body{
+    text-align: center;
+    background-color: #F5F4F2;
+    font-family: "Lato", sans-serif;
+}
+.card h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card img{
+    margin-top: -80px;
+}
+.card p{
+    color: #101010;
+}
+.card h1{
+    color: #FFC61A;
+}
+.card-2{
+    background-color: #FFC61A;
+}
+.card-2 h1{
+    color: black;
+}
+.card-2 button{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.car-star img{
+    margin-left: 275px;
+    position: absolute;
+    margin-top: -73px;
+}
+.card-body h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Contain Section */
+.content{
+    background-image: url(img/contentimg/contentbg.jpg);
+    padding: 80px 0;
+    background-size: cover;
+    height: 750px;
+}
+.content .content-info{
+    margin-top: 80px;
+}
+.content h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.content h2{
+    text-transform: uppercase;
+    color: #FFC61A;  
+    font-weight: bold; 
+    text-align: center;
+}
+.content-text h4{
+    color: #FFC61A;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.content-text p{
+    color: white;
+    font-size: 18px;
+}
+.content .content-info img{
+    position: absolute;
+}
+.content .content-info .content-text{
+    position: relative;
+    margin-left: 100px;
+}
+/* service section */
+.service-info{
+    text-transform: uppercase;
+    text-align: center;
+}
+.service-info h2{
+    color: #FFC61A;
+    font-weight: bold;
+}
+.service-info h1{
+    color: black;
+    font-weight: bold;
+}
+.service{
+    min-height: 652px;
+}
+.service-left{
+    padding: 52px;
+}
+.service-left h4{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+/* Start biography */
+.biography{
+    background-image: url(img/person/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    background-size: cover;
+    height: 600px;
+}
+.biography h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC61A;
+}
+.biography h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.bio-box{
+    background-color: #040707;
+    padding: 40px;
+    border-radius: 50px;
+}
+.bio-box p{
+    color: white;
+    font-size: 17px;
+}
+.bio-face h4{
+    text-transform: uppercase;
+    color: #FFC61A;
+    margin-left: 97px;
+
+}
+.bio-face h6{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 97px;
+}
+.biography .bio-face img{
+    position: absolute;
+}
+/* call-section */
+.call-section{
+    background-color: #FFC61A;
+    height: 280px;
+}
+.call-section h2{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 750;
+    font-size: 30px;
+}
+.call-section h1{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+}
+/* contact */
+.contact{
+    background-image: url(img/footer/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    height: 400px;
+}
+.contact h4{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 7px solid #FFC61A;
+}
+.contact p{
+    color: white;
+    font-size: 15px;
+    /* padding-top: 20px; */
+}
+.contact .about-cab-hub, .download, .contact-info{
+    margin: 0 20px;
+}
+.contact .about-cab-hub a{
+    color: #FFC61A;
+    padding: 0 7px;
+    font-size: 20px;
+}
+.contact .about-cab-hub ul li{
+    list-style-type: none;
+    display: inline;    
+}
+.contact .download li{
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+.contact .download ul li span{
+    color: white;
+    font-size: 20px;
+}
+.contact .download a{
+    color: #FFC61A;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.contact .download i.fa-apple{
+    margin-left: 40px;
+}
+.contact .contact-info li{
+    list-style-type: none;
+}
+.contact .contact-info i{
+    color: white;
+    position: absolute;
+    font-size: 23px;
+}
+.contact .contact-info p{
+    position: relative;
+    margin-left: 50px;
+}
+/* footer */
+footer{
+    background-color: #000000;
+}
+footer p{
+    text-align: center;
+    margin-top: 15px;
+    /* padding: 2px; */
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+footer a{
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
